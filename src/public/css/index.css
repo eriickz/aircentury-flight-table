@@ -1,0 +1,68 @@
+:root {
+  --table-base-border: 10px;
+}
+
+body {
+  background: #e6e6e6;
+}
+
+.table-custom th,
+.table-custom td {
+  text-align: center;
+  color: #fff;
+  background-color: #fff;
+  vertical-align: middle;
+  padding: 20px 30px;
+}
+
+.table-custom {
+  font-family: Poppins;
+  font-size: 15px;
+  border-collapse: collapse;
+  margin-top: 150px;
+}
+
+.table-custom th:not(:first-child) {
+  background-color: #333333;
+  font-weight: 700;
+  border-right: 1px solid #fff;
+}
+
+.table-custom thead th:first-child {
+  background: #fff;
+  border-top-left-radius: var(--table-base-border);
+}
+
+.table-custom thead th:last-child {
+  border-top-right-radius: var(--table-base-border);
+  border-right: none;
+}
+
+.table-custom tbody tr:hover {
+  background: #e6e6e6;
+}
+
+.table-custom td {
+  color: rgb(33, 37, 41);
+  border-right: 1px solid #ccc;
+  font-weight: 300;
+}
+
+.table-custom tbody tr:last-child td:first-child {
+  border-bottom-left-radius: var(--table-base-border);
+}
+
+.table-custom tbody tr:last-child td:last-child {
+  border-bottom-right-radius: var(--table-base-border);
+  border-right: none;
+}
+
+@media only screen and (max-width: 768px) {
+  .container-fluid {
+    padding-left: 0px !important;
+  }
+
+  .table-custom td {
+    white-space: nowrap;
+  }
+}

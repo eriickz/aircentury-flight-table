@@ -1,0 +1,12 @@
+{
+  "port": 4000,
+  "host": "localhost",
+  "root": "./src",
+  "open": false,
+  "file": "index.html",
+  "wait": 1000,
+  "mount": [["./src", "./node_modules"]],
+  "noCssInject": true,
+  "cors": true,
+  "logLevel": 2
+}
