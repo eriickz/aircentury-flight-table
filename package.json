@@ -10,6 +10,7 @@
     "build": "parcel-css --minify --nesting --bundle ./src/public/css/index.css -o ./src/bundle.css"
   },
   "dependencies": {
+    "@parcel/css-cli": "^1.8.3",
     "express": "^4.18.1",
     "live-server": "^1.2.2"
   }
