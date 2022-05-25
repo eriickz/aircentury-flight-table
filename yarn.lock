@@ -2,62 +2,6 @@
 # yarn lockfile v1
 
 
-"@parcel/css-cli-darwin-arm64@1.8.3":
-  version "1.8.3"
-  resolved "https://registry.yarnpkg.com/@parcel/css-cli-darwin-arm64/-/css-cli-darwin-arm64-1.8.3.tgz#94c967ec7a4adebbd37d8155ebe87ba726009926"
-  integrity sha512-KI9U2lzpVjcMAAiq63diKUPOhThlYmp9cyXM32apqOEEwFNe/idEkfSJux4HVjf2nS+yPMgedhyvunBmhuEUPA==
-
-"@parcel/css-cli-darwin-x64@1.8.3":
-  version "1.8.3"
-  resolved "https://registry.yarnpkg.com/@parcel/css-cli-darwin-x64/-/css-cli-darwin-x64-1.8.3.tgz#48413ced4b15bb1d12230a721ff9d77bad24e96f"
-  integrity sha512-/ZpE1kU015HZMT7CHaaWJMnCEUwd+FFp6IyBteLoNZdTpvvGva0KQauV62n+NFd3liglWecv1GsHcMKN9WMHWQ==
-
-"@parcel/css-cli-linux-arm-gnueabihf@1.8.3":
-  version "1.8.3"
-  resolved "https://registry.yarnpkg.com/@parcel/css-cli-linux-arm-gnueabihf/-/css-cli-linux-arm-gnueabihf-1.8.3.tgz#b748edac3454c7427b7423b667272d71a7c3fee2"
-  integrity sha512-WMjaTZL//MDZbl3wN7I6lvBLU48j0isIWBnNXmE/NynJG+e0ykHRaiZWClSh7Jdw4YT6ReqyIT20JahYdz72hw==
-
-"@parcel/css-cli-linux-arm64-gnu@1.8.3":
-  version "1.8.3"
-  resolved "https://registry.yarnpkg.com/@parcel/css-cli-linux-arm64-gnu/-/css-cli-linux-arm64-gnu-1.8.3.tgz#fc887d5b1287eccdec9cd7e25c7a7355d8818fd3"
-  integrity sha512-OUUhV/HqJ1SB8QftYrKUxO2ZTnPlG1E0WXaoDX6XEa2a4s4dC9vmeeGG6kQoZHLQzJW/2zCL8P4fxDEr3+PfaQ==
-
-"@parcel/css-cli-linux-arm64-musl@1.8.3":
-  version "1.8.3"
-  resolved "https://registry.yarnpkg.com/@parcel/css-cli-linux-arm64-musl/-/css-cli-linux-arm64-musl-1.8.3.tgz#941ecd6e07aa836a0f067e8080d5d63bcdb43c5c"
-  integrity sha512-efiJler4od5HWltoFJHsCduCDZbByTbHD+43Dc5Idb8DvPo/xpBrirdh9s8EgCbkK311ITd4kcVNd0LAcoRIkw==
-
-"@parcel/css-cli-linux-x64-gnu@1.8.3":
-  version "1.8.3"
-  resolved "https://registry.yarnpkg.com/@parcel/css-cli-linux-x64-gnu/-/css-cli-linux-x64-gnu-1.8.3.tgz#7cae25c09cdf80db085f233ce075080bbf839f76"
-  integrity sha512-Hy1Kz6NoGYazx3j+lBsTPlX048zSzwBAU5j+aHAZG8aUYIu5/MFQi+LWk0JuODuQ3g2FhGuEOu3sxy3qCIAYtg==
-
-"@parcel/css-cli-linux-x64-musl@1.8.3":
-  version "1.8.3"
-  resolved "https://registry.yarnpkg.com/@parcel/css-cli-linux-x64-musl/-/css-cli-linux-x64-musl-1.8.3.tgz#f4af6d6a13592a76e607728593b421f6b0b1addc"
-  integrity sha512-3g7p05X04BV/jPQPe8zwkj+oWKVOiDwRBZfJzKErrhhVKCat7v7pawR7FImW7P5mA+kSkqYqTOJ/6iHNtJSmMA==
-
-"@parcel/css-cli-win32-x64-msvc@1.8.3":
-  version "1.8.3"
-  resolved "https://registry.yarnpkg.com/@parcel/css-cli-win32-x64-msvc/-/css-cli-win32-x64-msvc-1.8.3.tgz#d7a068c6b6b02a5b23108f2d5ac1e90898c17a2f"
-  integrity sha512-qTIztdnou/jxg32KJRveY1lktlz9hoIFXEvQ6tD5yutwPuInaYACxtqgqvAoMZHRBbnB14y21hfNPYoPst6agw==
-
-"@parcel/css-cli@^1.8.3":
-  version "1.8.3"
-  resolved "https://registry.yarnpkg.com/@parcel/css-cli/-/css-cli-1.8.3.tgz#49b445a1b67c5910d5eeb028ce9af273f0ca5da5"
-  integrity sha512-9kiDyz7aIJxe0UIPc3A8g3wG2ED6zyqUwp4499d0/QUZyiGAxlhp1ryAQjmGh3F10vIz8AZViWAvamY2TcdwKg==
-  dependencies:
-    detect-libc "^1.0.3"
-  optionalDependencies:
-    "@parcel/css-cli-darwin-arm64" "1.8.3"
-    "@parcel/css-cli-darwin-x64" "1.8.3"
-    "@parcel/css-cli-linux-arm-gnueabihf" "1.8.3"
-    "@parcel/css-cli-linux-arm64-gnu" "1.8.3"
-    "@parcel/css-cli-linux-arm64-musl" "1.8.3"
-    "@parcel/css-cli-linux-x64-gnu" "1.8.3"
-    "@parcel/css-cli-linux-x64-musl" "1.8.3"
-    "@parcel/css-cli-win32-x64-msvc" "1.8.3"
-
 accepts@~1.3.4, accepts@~1.3.8:
   version "1.3.8"
   resolved "https://registry.yarnpkg.com/accepts/-/accepts-1.3.8.tgz#0bf0be125b67014adcb0b0921e62db7bffe16b2e"
@@ -375,11 +319,6 @@ destroy@1.2.0:
   version "1.2.0"
   resolved "https://registry.yarnpkg.com/destroy/-/destroy-1.2.0.tgz#4803735509ad8be552934c67df614f94e66fa015"
   integrity sha512-2sJGJTaXIIaR1w4iJSNoN0hnMY7Gpc/n8D4qSCJw8QqFWXf7cuAgnEHxBpweaVcPevC2l3KpjYCx3NypQQgaJg==
-
-detect-libc@^1.0.3:
-  version "1.0.3"
-  resolved "https://registry.yarnpkg.com/detect-libc/-/detect-libc-1.0.3.tgz#fa137c4bd698edf55cd5cd02ac559f91a4c4ba9b"
-  integrity sha1-+hN8S9aY7fVc1c0CrFWfkaTEups=
 
 duplexer@~0.1.1:
   version "0.1.2"

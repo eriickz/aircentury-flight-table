@@ -6,11 +6,9 @@
   "author": "eriickz <ericrodmon@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "start": "node server.js",
-    "build": "parcel-css --minify --nesting --bundle ./src/public/css/index.css -o ./src/bundle.css"
+    "start": "node server.js"
   },
   "dependencies": {
-    "@parcel/css-cli": "^1.8.3",
     "express": "^4.18.1",
     "live-server": "^1.2.2"
   }
