@@ -18,14 +18,21 @@ body {
 .table-custom {
   font-family: Poppins;
   font-size: 15px;
-  border-collapse: collapse;
+  border-collapse: separate;
   margin-top: 150px;
+  border-spacing: 0;
 }
 
 .table-custom th:not(:first-child) {
   background-color: #333333;
   font-weight: 700;
   border-right: 1px solid #fff;
+}
+
+.table-custom th:first-child,
+.table-custom td:first-child {
+  position: sticky;
+  left: 0px;
 }
 
 .table-custom thead th:first-child {
@@ -60,9 +67,6 @@ body {
 @media only screen and (max-width: 768px) {
   .container-fluid {
     padding-left: 0px !important;
-  }
-
-  .table-custom td {
     white-space: nowrap;
   }
 }
